@@ -18,6 +18,8 @@ Description:
 - Define musical referencing model
 
 ## Deploy / Execute
+
+### FrontEnd
 To run the app in development mode on localhost, do the following:
 ```
 flutter run -d web-server
