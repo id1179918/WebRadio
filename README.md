@@ -10,11 +10,11 @@ Description:
 - webpage accessible from localhost ✅
 - webpage accesible from remote device on local network ✅
 - webpage accessible from remote device on internet
-- Fetch musical reference
-- Stream music on webpage
+- Fetch musical reference ✅
+- Play music on webpage ✅
 
 ## SERVER
-- GET/POST actions
+- GET/POST actions ✅
 - Define musical referencing model
 
 ## Deploy / Execute

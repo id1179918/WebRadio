@@ -20,6 +20,21 @@ app.get('/api/data', async (req, res) => {
   }
 });
 
+app.get('/session/:id', async (req, res) => {
+  try {
+	  console.log("GET /session/:id");
+	  var music_style_id = req.params.id;
+    //fetch music data
+    //fetch music meta data
+    //format response
+    res.set('Content-Type', 'audio/mpeg');
+    //res.send();
+  } catch (error) {
+    console.error('Error: ', error.message);
+    res.status(500).json({ error: 'Error has occured' });
+  }
+});
+
 
 app.post('/api', async (req, res) => {
   try {
